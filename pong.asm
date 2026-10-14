@@ -3,7 +3,6 @@ section .data
   
     border_color equ 0x03 
     paddle_color equ 0x02  
-    ball_color   equ 0x0F 
     score_color equ 0x0E 
 
 
@@ -17,6 +16,7 @@ section .data
     ball_dx dw 1      
     ball_dy dw 1        
 
+    ball_color db 0x0F   ; current ball color (changes on every paddle hit)
     ball_colors db 0x0F, 0x0C, 0x0A, 0x0E, 0x09 
     ball_color_index db 0
 
