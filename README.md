@@ -1,5 +1,7 @@
 # pong-8086-asm
 
+[![CI](https://github.com/mhbemani/pong-8086-asm/actions/workflows/ci.yml/badge.svg)](https://github.com/mhbemani/pong-8086-asm/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Pong written in 16-bit x86 assembly (NASM) for DOS, drawing directly to VGA mode 13h (320x200, 256 colors). One 880-line file, no libraries.
 
 ## Gameplay
